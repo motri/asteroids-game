@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		50995E5E1EF703CF00340A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E5D1EF703CF00340A62 /* AppDelegate.swift */; };
-		50995E601EF703CF00340A62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E5F1EF703CF00340A62 /* GameScene.sks */; };
 		50995E621EF703CF00340A62 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E611EF703CF00340A62 /* Actions.sks */; };
 		50995E641EF703CF00340A62 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E631EF703CF00340A62 /* GameScene.swift */; };
 		50995E661EF703CF00340A62 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E651EF703CF00340A62 /* GameViewController.swift */; };
 		50995E691EF703CF00340A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50995E671EF703CF00340A62 /* Main.storyboard */; };
-		50995E6B1EF703CF00340A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50995E6A1EF703CF00340A62 /* Assets.xcassets */; };
 		50995E6E1EF703CF00340A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50995E6C1EF703CF00340A62 /* LaunchScreen.storyboard */; };
 		50995E791EF703CF00340A62 /* Asteroids_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E781EF703CF00340A62 /* Asteroids_gameTests.swift */; };
 		50995E841EF703CF00340A62 /* Asteroids_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E831EF703CF00340A62 /* Asteroids_gameUITests.swift */; };
+		50995E961EF705E000340A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50995E951EF705E000340A62 /* Assets.xcassets */; };
+		50995E981EF706A200340A62 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50995E971EF706A200340A62 /* explosion.mp3 */; };
+		50995E9A1EF706AE00340A62 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50995E991EF706AE00340A62 /* torpedo.mp3 */; };
+		50995E9F1EF7071B00340A62 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E9D1EF7071B00340A62 /* Explosion.sks */; };
+		50995EA01EF7071B00340A62 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E9E1EF7071B00340A62 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +42,10 @@
 /* Begin PBXFileReference section */
 		50995E5A1EF703CF00340A62 /* Asteroids-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroids-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50995E5D1EF703CF00340A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50995E5F1EF703CF00340A62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		50995E611EF703CF00340A62 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		50995E631EF703CF00340A62 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		50995E651EF703CF00340A62 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		50995E681EF703CF00340A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50995E6A1EF703CF00340A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50995E6D1EF703CF00340A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50995E6F1EF703CF00340A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50995E741EF703CF00340A62 /* Asteroids-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asteroids-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +54,11 @@
 		50995E7F1EF703CF00340A62 /* Asteroids-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asteroids-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50995E831EF703CF00340A62 /* Asteroids_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroids_gameUITests.swift; sourceTree = "<group>"; };
 		50995E851EF703CF00340A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50995E951EF705E000340A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50995E971EF706A200340A62 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = explosion.mp3; path = "Asteroids-gameTests/explosion.mp3"; sourceTree = SOURCE_ROOT; };
+		50995E991EF706AE00340A62 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = torpedo.mp3; path = "Asteroids-gameTests/torpedo.mp3"; sourceTree = SOURCE_ROOT; };
+		50995E9D1EF7071B00340A62 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		50995E9E1EF7071B00340A62 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +110,16 @@
 			isa = PBXGroup;
 			children = (
 				50995E5D1EF703CF00340A62 /* AppDelegate.swift */,
-				50995E5F1EF703CF00340A62 /* GameScene.sks */,
 				50995E611EF703CF00340A62 /* Actions.sks */,
+				50995E9D1EF7071B00340A62 /* Explosion.sks */,
+				50995E9E1EF7071B00340A62 /* Starfield.sks */,
 				50995E631EF703CF00340A62 /* GameScene.swift */,
 				50995E651EF703CF00340A62 /* GameViewController.swift */,
 				50995E671EF703CF00340A62 /* Main.storyboard */,
-				50995E6A1EF703CF00340A62 /* Assets.xcassets */,
 				50995E6C1EF703CF00340A62 /* LaunchScreen.storyboard */,
+				50995E991EF706AE00340A62 /* torpedo.mp3 */,
+				50995E971EF706A200340A62 /* explosion.mp3 */,
+				50995E951EF705E000340A62 /* Assets.xcassets */,
 				50995E6F1EF703CF00340A62 /* Info.plist */,
 			);
 			path = "Asteroids-game";
@@ -241,11 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50995EA01EF7071B00340A62 /* Starfield.sks in Resources */,
 				50995E691EF703CF00340A62 /* Main.storyboard in Resources */,
-				50995E601EF703CF00340A62 /* GameScene.sks in Resources */,
-				50995E6B1EF703CF00340A62 /* Assets.xcassets in Resources */,
+				50995E961EF705E000340A62 /* Assets.xcassets in Resources */,
 				50995E6E1EF703CF00340A62 /* LaunchScreen.storyboard in Resources */,
 				50995E621EF703CF00340A62 /* Actions.sks in Resources */,
+				50995E9F1EF7071B00340A62 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50995E9A1EF706AE00340A62 /* torpedo.mp3 in Resources */,
+				50995E981EF706A200340A62 /* explosion.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

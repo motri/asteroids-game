@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50995E591EF703CF00340A62"
+               BuildableName = "Asteroids-game.app"
+               BlueprintName = "Asteroids-game"
+               ReferencedContainer = "container:Asteroids-game.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50995E731EF703CF00340A62"
+               BuildableName = "Asteroids-gameTests.xctest"
+               BlueprintName = "Asteroids-gameTests"
+               ReferencedContainer = "container:Asteroids-game.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50995E7E1EF703CF00340A62"
+               BuildableName = "Asteroids-gameUITests.xctest"
+               BlueprintName = "Asteroids-gameUITests"
+               ReferencedContainer = "container:Asteroids-game.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "50995E591EF703CF00340A62"
+            BuildableName = "Asteroids-game.app"
+            BlueprintName = "Asteroids-game"
+            ReferencedContainer = "container:Asteroids-game.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "50995E591EF703CF00340A62"
+            BuildableName = "Asteroids-game.app"
+            BlueprintName = "Asteroids-game"
+            ReferencedContainer = "container:Asteroids-game.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "50995E591EF703CF00340A62"
+            BuildableName = "Asteroids-game.app"
+            BlueprintName = "Asteroids-game"
+            ReferencedContainer = "container:Asteroids-game.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
