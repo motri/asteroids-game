@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50995E5E1EF703CF00340A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E5D1EF703CF00340A62 /* AppDelegate.swift */; };
+		50995E601EF703CF00340A62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E5F1EF703CF00340A62 /* GameScene.sks */; };
+		50995E621EF703CF00340A62 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E611EF703CF00340A62 /* Actions.sks */; };
+		50995E641EF703CF00340A62 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E631EF703CF00340A62 /* GameScene.swift */; };
+		50995E661EF703CF00340A62 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E651EF703CF00340A62 /* GameViewController.swift */; };
+		50995E691EF703CF00340A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50995E671EF703CF00340A62 /* Main.storyboard */; };
+		50995E6B1EF703CF00340A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50995E6A1EF703CF00340A62 /* Assets.xcassets */; };
+		50995E6E1EF703CF00340A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50995E6C1EF703CF00340A62 /* LaunchScreen.storyboard */; };
+		50995E791EF703CF00340A62 /* Asteroids_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E781EF703CF00340A62 /* Asteroids_gameTests.swift */; };
+		50995E841EF703CF00340A62 /* Asteroids_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995E831EF703CF00340A62 /* Asteroids_gameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50995E751EF703CF00340A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50995E521EF703CE00340A62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50995E591EF703CF00340A62;
+			remoteInfo = "Asteroids-game";
+		};
+		50995E801EF703CF00340A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50995E521EF703CE00340A62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50995E591EF703CF00340A62;
+			remoteInfo = "Asteroids-game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50995E5A1EF703CF00340A62 /* Asteroids-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroids-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50995E5D1EF703CF00340A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50995E5F1EF703CF00340A62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		50995E611EF703CF00340A62 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		50995E631EF703CF00340A62 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		50995E651EF703CF00340A62 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		50995E681EF703CF00340A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50995E6A1EF703CF00340A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50995E6D1EF703CF00340A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50995E6F1EF703CF00340A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50995E741EF703CF00340A62 /* Asteroids-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asteroids-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50995E781EF703CF00340A62 /* Asteroids_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroids_gameTests.swift; sourceTree = "<group>"; };
+		50995E7A1EF703CF00340A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50995E7F1EF703CF00340A62 /* Asteroids-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asteroids-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50995E831EF703CF00340A62 /* Asteroids_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroids_gameUITests.swift; sourceTree = "<group>"; };
+		50995E851EF703CF00340A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50995E571EF703CF00340A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50995E711EF703CF00340A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50995E7C1EF703CF00340A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50995E511EF703CE00340A62 = {
+			isa = PBXGroup;
+			children = (
+				50995E5C1EF703CF00340A62 /* Asteroids-game */,
+				50995E771EF703CF00340A62 /* Asteroids-gameTests */,
+				50995E821EF703CF00340A62 /* Asteroids-gameUITests */,
+				50995E5B1EF703CF00340A62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50995E5B1EF703CF00340A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50995E5A1EF703CF00340A62 /* Asteroids-game.app */,
+				50995E741EF703CF00340A62 /* Asteroids-gameTests.xctest */,
+				50995E7F1EF703CF00340A62 /* Asteroids-gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50995E5C1EF703CF00340A62 /* Asteroids-game */ = {
+			isa = PBXGroup;
+			children = (
+				50995E5D1EF703CF00340A62 /* AppDelegate.swift */,
+				50995E5F1EF703CF00340A62 /* GameScene.sks */,
+				50995E611EF703CF00340A62 /* Actions.sks */,
+				50995E631EF703CF00340A62 /* GameScene.swift */,
+				50995E651EF703CF00340A62 /* GameViewController.swift */,
+				50995E671EF703CF00340A62 /* Main.storyboard */,
+				50995E6A1EF703CF00340A62 /* Assets.xcassets */,
+				50995E6C1EF703CF00340A62 /* LaunchScreen.storyboard */,
+				50995E6F1EF703CF00340A62 /* Info.plist */,
+			);
+			path = "Asteroids-game";
+			sourceTree = "<group>";
+		};
+		50995E771EF703CF00340A62 /* Asteroids-gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				50995E781EF703CF00340A62 /* Asteroids_gameTests.swift */,
+				50995E7A1EF703CF00340A62 /* Info.plist */,
+			);
+			path = "Asteroids-gameTests";
+			sourceTree = "<group>";
+		};
+		50995E821EF703CF00340A62 /* Asteroids-gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50995E831EF703CF00340A62 /* Asteroids_gameUITests.swift */,
+				50995E851EF703CF00340A62 /* Info.plist */,
+			);
+			path = "Asteroids-gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50995E591EF703CF00340A62 /* Asteroids-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50995E881EF703CF00340A62 /* Build configuration list for PBXNativeTarget "Asteroids-game" */;
+			buildPhases = (
+				50995E561EF703CF00340A62 /* Sources */,
+				50995E571EF703CF00340A62 /* Frameworks */,
+				50995E581EF703CF00340A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asteroids-game";
+			productName = "Asteroids-game";
+			productReference = 50995E5A1EF703CF00340A62 /* Asteroids-game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50995E731EF703CF00340A62 /* Asteroids-gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50995E8B1EF703CF00340A62 /* Build configuration list for PBXNativeTarget "Asteroids-gameTests" */;
+			buildPhases = (
+				50995E701EF703CF00340A62 /* Sources */,
+				50995E711EF703CF00340A62 /* Frameworks */,
+				50995E721EF703CF00340A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50995E761EF703CF00340A62 /* PBXTargetDependency */,
+			);
+			name = "Asteroids-gameTests";
+			productName = "Asteroids-gameTests";
+			productReference = 50995E741EF703CF00340A62 /* Asteroids-gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50995E7E1EF703CF00340A62 /* Asteroids-gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50995E8E1EF703CF00340A62 /* Build configuration list for PBXNativeTarget "Asteroids-gameUITests" */;
+			buildPhases = (
+				50995E7B1EF703CF00340A62 /* Sources */,
+				50995E7C1EF703CF00340A62 /* Frameworks */,
+				50995E7D1EF703CF00340A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50995E811EF703CF00340A62 /* PBXTargetDependency */,
+			);
+			name = "Asteroids-gameUITests";
+			productName = "Asteroids-gameUITests";
+			productReference = 50995E7F1EF703CF00340A62 /* Asteroids-gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50995E521EF703CE00340A62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Unai Motriko";
+				TargetAttributes = {
+					50995E591EF703CF00340A62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					50995E731EF703CF00340A62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50995E591EF703CF00340A62;
+					};
+					50995E7E1EF703CF00340A62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50995E591EF703CF00340A62;
+					};
+				};
+			};
+			buildConfigurationList = 50995E551EF703CE00340A62 /* Build configuration list for PBXProject "Asteroids-game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50995E511EF703CE00340A62;
+			productRefGroup = 50995E5B1EF703CF00340A62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50995E591EF703CF00340A62 /* Asteroids-game */,
+				50995E731EF703CF00340A62 /* Asteroids-gameTests */,
+				50995E7E1EF703CF00340A62 /* Asteroids-gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50995E581EF703CF00340A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50995E691EF703CF00340A62 /* Main.storyboard in Resources */,
+				50995E601EF703CF00340A62 /* GameScene.sks in Resources */,
+				50995E6B1EF703CF00340A62 /* Assets.xcassets in Resources */,
+				50995E6E1EF703CF00340A62 /* LaunchScreen.storyboard in Resources */,
+				50995E621EF703CF00340A62 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50995E721EF703CF00340A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50995E7D1EF703CF00340A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50995E561EF703CF00340A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50995E641EF703CF00340A62 /* GameScene.swift in Sources */,
+				50995E661EF703CF00340A62 /* GameViewController.swift in Sources */,
+				50995E5E1EF703CF00340A62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50995E701EF703CF00340A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50995E791EF703CF00340A62 /* Asteroids_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50995E7B1EF703CF00340A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50995E841EF703CF00340A62 /* Asteroids_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50995E761EF703CF00340A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50995E591EF703CF00340A62 /* Asteroids-game */;
+			targetProxy = 50995E751EF703CF00340A62 /* PBXContainerItemProxy */;
+		};
+		50995E811EF703CF00340A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50995E591EF703CF00340A62 /* Asteroids-game */;
+			targetProxy = 50995E801EF703CF00340A62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50995E671EF703CF00340A62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50995E681EF703CF00340A62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50995E6C1EF703CF00340A62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50995E6D1EF703CF00340A62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50995E861EF703CF00340A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50995E871EF703CF00340A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50995E891EF703CF00340A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Asteroids-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "project-x.Asteroids-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50995E8A1EF703CF00340A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Asteroids-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "project-x.Asteroids-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		50995E8C1EF703CF00340A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Asteroids-gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "project-x.Asteroids-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids-game.app/Asteroids-game";
+			};
+			name = Debug;
+		};
+		50995E8D1EF703CF00340A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Asteroids-gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "project-x.Asteroids-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids-game.app/Asteroids-game";
+			};
+			name = Release;
+		};
+		50995E8F1EF703CF00340A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Asteroids-gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "project-x.Asteroids-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Asteroids-game";
+			};
+			name = Debug;
+		};
+		50995E901EF703CF00340A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Asteroids-gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "project-x.Asteroids-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Asteroids-game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50995E551EF703CE00340A62 /* Build configuration list for PBXProject "Asteroids-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50995E861EF703CF00340A62 /* Debug */,
+				50995E871EF703CF00340A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50995E881EF703CF00340A62 /* Build configuration list for PBXNativeTarget "Asteroids-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50995E891EF703CF00340A62 /* Debug */,
+				50995E8A1EF703CF00340A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50995E8B1EF703CF00340A62 /* Build configuration list for PBXNativeTarget "Asteroids-gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50995E8C1EF703CF00340A62 /* Debug */,
+				50995E8D1EF703CF00340A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50995E8E1EF703CF00340A62 /* Build configuration list for PBXNativeTarget "Asteroids-gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50995E8F1EF703CF00340A62 /* Debug */,
+				50995E901EF703CF00340A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50995E521EF703CE00340A62 /* Project object */;
+}
