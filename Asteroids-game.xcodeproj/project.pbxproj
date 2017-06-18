@@ -20,6 +20,7 @@
 		50995E9A1EF706AE00340A62 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50995E991EF706AE00340A62 /* torpedo.mp3 */; };
 		50995E9F1EF7071B00340A62 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E9D1EF7071B00340A62 /* Explosion.sks */; };
 		50995EA01EF7071B00340A62 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995E9E1EF7071B00340A62 /* Starfield.sks */; };
+		50995EA21EF70FE000340A62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50995EA11EF70FE000340A62 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		50995E991EF706AE00340A62 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = torpedo.mp3; path = "Asteroids-gameTests/torpedo.mp3"; sourceTree = SOURCE_ROOT; };
 		50995E9D1EF7071B00340A62 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		50995E9E1EF7071B00340A62 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		50995EA11EF70FE000340A62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				50995E611EF703CF00340A62 /* Actions.sks */,
 				50995E9D1EF7071B00340A62 /* Explosion.sks */,
 				50995E9E1EF7071B00340A62 /* Starfield.sks */,
+				50995EA11EF70FE000340A62 /* GameScene.sks */,
 				50995E631EF703CF00340A62 /* GameScene.swift */,
 				50995E651EF703CF00340A62 /* GameViewController.swift */,
 				50995E671EF703CF00340A62 /* Main.storyboard */,
@@ -254,6 +257,7 @@
 				50995E691EF703CF00340A62 /* Main.storyboard in Resources */,
 				50995E961EF705E000340A62 /* Assets.xcassets in Resources */,
 				50995E6E1EF703CF00340A62 /* LaunchScreen.storyboard in Resources */,
+				50995EA21EF70FE000340A62 /* GameScene.sks in Resources */,
 				50995E621EF703CF00340A62 /* Actions.sks in Resources */,
 				50995E9F1EF7071B00340A62 /* Explosion.sks in Resources */,
 			);
